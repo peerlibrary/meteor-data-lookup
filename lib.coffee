@@ -1,4 +1,4 @@
-class DataLookup
+export class DataLookup
   @lookup: (obj, path) ->
     path = path.split '.' if _.isString path
 
