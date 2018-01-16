@@ -1,7 +1,7 @@
 Package.describe({
   name: 'peerlibrary:data-lookup',
   summary: "Reactively lookup a field in the object",
-  version: '0.2.0',
+  version: '0.2.1',
   git: 'https://github.com/peerlibrary/meteor-data-lookup.git'
 });
 
@@ -46,7 +46,7 @@ Package.onTest(function (api) {
   // 3rd party dependencies.
   api.use([
     'peerlibrary:classy-test@0.3.0',
-    'peerlibrary:server-autorun@0.7.0'
+    'peerlibrary:server-autorun@0.7.1'
   ]);
 
   api.addFiles([
